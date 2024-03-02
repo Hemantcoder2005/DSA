@@ -17,7 +17,7 @@ int main(){
 
 	 cout<<"before Sorting : ";
 	 print(arr,size);
-
+     SelectionSort(arr)
 	 cout<<"before Sorting : ";
 	 print(arr,size);   
         
