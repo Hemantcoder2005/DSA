@@ -10,6 +10,19 @@ void print(int arr[],int size){
     }
     cout<<endl;
 }
+
+void InsertionSort(int arr[],int size){
+	for (int  i = 0; i < size; i++)
+	{
+		for(int j=i;j>0;j--){
+			if(arr[j]<arr[j-1]){
+				swap(arr[j],arr[j-1]);
+			}
+		}
+		
+	}
+	
+}	
 int main(){
 
 	 int size=5;
@@ -17,7 +30,7 @@ int main(){
 
 	 cout<<"before Sorting : ";
 	 print(arr,size);
-
+	InsertionSort(arr,size);
 	 cout<<"before Sorting : ";
 	 print(arr,size);   
         
