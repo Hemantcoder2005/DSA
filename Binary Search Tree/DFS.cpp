@@ -25,6 +25,26 @@ void printPreOrder(Node* root){
     printPreOrder(root->right);
     
 }
+
+void printInOrder(Node* root){
+    if(root==NULL){
+        return;
+    }
+    printInOrder(root->left);
+    cout<<root->data<<" ";
+    printInOrder(root->right);
+    
+}
+
+void printpostOrder(Node* root){
+    if(root==NULL){
+        return;
+    }
+    printpostOrder(root->left);
+    printpostOrder(root->right);
+    cout<<root->data<<" ";
+    
+}
 int main() {
     // Your code here
     Node* root=new Node(1);
@@ -47,6 +67,17 @@ int main() {
     ch2->left=ch21;
     ch2->right=ch22;
 
+    cout<<"Preorder = ";
     printPreOrder(root);
+    
+    cout<<"\n";
+
+    cout<<"Inorder = ";
+    printInOrder(root);
+    
+    cout<<"\n";
+
+    cout<<"Postorder = ";
+    printpostOrder(root);
     return 0;
 }
