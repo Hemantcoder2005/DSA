@@ -21,7 +21,7 @@ class heap{
         size--;
         while(index<size){
             int leftIndex=2*index;
-            int rightIndex=2*index;
+            int rightIndex=2*index+1;
 
             //left side
             if(leftIndex<size && arr[index]< arr[leftIndex]){
@@ -64,11 +64,11 @@ class heap{
 int main() {
     // Your code here
     heap a;
-    a.insert(1);
-    a.insert(2);
-    a.insert(3);
     a.insert(4);
-    a.insert(5);
+    a.insert(3);
+    a.insert(2);
+    a.insert(1);
+    a.insert(0);
 
     a.print();
     
