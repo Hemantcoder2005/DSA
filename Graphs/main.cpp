@@ -48,6 +48,7 @@ class Graph{
 				
 				if(!visted[n]){
 					q->push(n);
+					visted[n]=true;
 				}	
 			}
 
