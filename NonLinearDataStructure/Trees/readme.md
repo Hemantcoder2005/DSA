@@ -5,4 +5,4 @@ Let's Imagine a Tree What does it have?
 - Branches
 
 Similarily, In computer science we have Tree (see below)
-<image src = "src\1.png"></image>
+<image height="100px" src = "src\1.png"></image>
