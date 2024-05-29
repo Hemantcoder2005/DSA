@@ -23,7 +23,7 @@ tree
 - BST is a kind of binary tree in which all the data which is smaller should be at left side and bigger should be at right side.
 - <image height="400px" style = "position :relative" src = "https://th.bing.com/th/id/OIP.rTKXBurTgrkBgk9C0AK-eQAAAA?rs=1&pid=ImgDetMain"></image> 
 - Let's build a tree class
-- C++ Implementation [Code (#https://github.com/Hemantcoder2005/DSA/tree/main/NonLinearDataStructure/Trees/build.cpp)]
+- C++ Implementation [Code](https://github.com/Hemantcoder2005/DSA/tree/main/NonLinearDataStructure/Trees/build.cpp)
 ```c++
 struct TreeNode{
     TreeNode* left = NULL;
