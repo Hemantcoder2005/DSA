@@ -21,4 +21,4 @@ tree
 - <image height="400px" style = "position :relative" src = "src\3.png"></image> 
 ## Binary Search Tree (BST)
 - BST is a kind of binary tree in which all the data which is smaller should be at left side and bigger should be at right side.
-- <image height="400px" style = "position :relative" src = "[src\3.png](https://th.bing.com/th/id/OIP.rTKXBurTgrkBgk9C0AK-eQAAAA?rs=1&pid=ImgDetMain)"></image> 
+- <image height="400px" style = "position :relative" src = "https://th.bing.com/th/id/OIP.rTKXBurTgrkBgk9C0AK-eQAAAA?rs=1&pid=ImgDetMain"></image> 
