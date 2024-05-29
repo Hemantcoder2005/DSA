@@ -15,5 +15,5 @@
 tree
 ```
 - - Cmd will List a tree data structure of windows file
-- - Cancel it by cntrl + c because there are millions of files 😂😂 
+- - Cancel it by ```cntrl + c```  because there are millions of files 😂😂 
 
