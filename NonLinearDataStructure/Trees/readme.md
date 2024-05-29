@@ -4,6 +4,6 @@ Let's Imagine a Tree What does it have?
 - leafs
 - Branches
 
-Similarily, In computer science we have Tree (see below)
+Similarily, In computer science we have Tree (see above)
 <image height="400px" style = "position :relative" src = "src\1.png"></image>
 
