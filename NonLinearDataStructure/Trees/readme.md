@@ -1,4 +1,4 @@
-# Binary Trees
+# Trees
 - Let's Imagine a Tree What does it have?
 - - Root
 - - leafs
@@ -16,4 +16,6 @@ tree
 ```
 - - Cmd will List a tree data structure of windows file
 - - Cancel it by ```cntrl + c```  because there are millions of files 😂😂 
-
+# Binary Tree
+- A binary tree where each node have atmost 2 children
+- <image height="400px" style = "position :relative" src = "src\3.png"></image> 
